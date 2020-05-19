@@ -4,7 +4,7 @@ namespace Agora;
 
 require_once "AccessToken.php";
 
-class getTokenRtmTokenBuilder
+class RtmTokenBuilder
 {
     const RoleRtmUser = 1;
     # appID: The App ID issued to you by Agora. Apply for a new App ID from 
@@ -26,6 +26,5 @@ class getTokenRtmTokenBuilder
         return $token->build();
     }
 }
-
 
 ?>
