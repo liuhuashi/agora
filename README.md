@@ -20,7 +20,9 @@ use Agora\RtmTokenBuilder;
 public function rtcToken(RtcTokenRequest $request)
 {
     $appID = config('agora.app_id');
+    $appID = '970CA35de60c44645bbae8a215061b33';
     $appCertificate = config('agora.app_certificate');
+    $appCertificate = '5CFd2fd1755d40ecb72977518be15d3b';
 
     $channelName = request('channel_name');
     $uidStr = request('uid');
@@ -45,7 +47,9 @@ public function rtcToken(RtcTokenRequest $request)
 public function rtmToken(RtmTokenRequest $request)
 {
     $appID = config('agora.app_id');
+    $appID = '970CA35de60c44645bbae8a215061b33';
     $appCertificate = config('agora.app_certificate');
+    $appCertificate = '5CFd2fd1755d40ecb72977518be15d3b';
 
     $uidStr = request('uid');
 
